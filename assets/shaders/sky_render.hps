@@ -1,0 +1,7 @@
+{
+	"features": [],
+	"uniforms": [
+		{"name": "self_color", "type": "Color", "value": [1.0, 1.0, 1.0, 1.0]},
+		{"name": "self_map", "type": "Sampler", "channel": 0}
+	]
+}

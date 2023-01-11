@@ -1,0 +1,139 @@
+{
+	"cameras": [
+		{
+			"fov": 0.6981317400932312,
+			"ortho": false,
+			"size": 1.0,
+			"zrange": {
+				"zfar": 20000.0,
+				"znear": 1.0
+			}
+		}
+	],
+	"canvas": {
+		"clear_color": true,
+		"clear_z": true,
+		"color": [
+			151,
+			219,
+			255,
+			255
+		]
+	},
+	"environment": {
+		"ambient": [
+			0,
+			0,
+			0,
+			0
+		],
+		"brdf_map": "core/pbr/brdf.dds",
+		"current_camera": 1,
+		"fog_color": [
+			47,
+			65,
+			111,
+			0
+		],
+		"fog_far": 0.0,
+		"fog_near": 0.0,
+		"irradiance_map": "core/pbr/sea_sky_light3.hdr.irradiance",
+		"radiance_map": "core/pbr/sea_sky_light3.hdr.radiance"
+	},
+	"key_values": null,
+	"lights": [
+		{
+			"diffuse": [
+				255,
+				255,
+				255,
+				255
+			],
+			"diffuse_intensity": 1.0,
+			"inner_angle": 0.5235987901687622,
+			"outer_angle": 0.7853981852531433,
+			"priority": 0.0,
+			"pssm_split": [
+				1.0,
+				10.0,
+				50.0,
+				100.0
+			],
+			"radius": 0.0,
+			"shadow_bias": 0.00041000000783242285,
+			"shadow_type": "map",
+			"specular": [
+				255,
+				255,
+				255,
+				255
+			],
+			"specular_intensity": 1.0,
+			"type": "linear"
+		}
+	],
+	"nodes": [
+		{
+			"components": [
+				0,
+				4294967295,
+				4294967295,
+				0,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 0,
+			"name": "Sun"
+		},
+		{
+			"components": [
+				1,
+				0,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 1,
+			"name": "Camera"
+		}
+	],
+	"transforms": [
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				22.5,
+				22.5,
+				0.0
+			],
+			"scl": [
+				1.0,
+				0.9999998807907104,
+				0.9999998807907104
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				-8205.099609375,
+				6520.5,
+				2148.89990234375
+			],
+			"rot": [
+				35.6672477722168,
+				105.13813781738281,
+				0.0
+			],
+			"scl": [
+				0.9999837279319763,
+				0.9999624490737915,
+				0.9999727010726929
+			]
+		}
+	]
+}

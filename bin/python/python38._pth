@@ -1,0 +1,9 @@
+python38.zip
+.
+..\
+..\..\
+..\harfang\
+..\tqdm\
+
+# Uncomment to run site.main() automatically
+#import site

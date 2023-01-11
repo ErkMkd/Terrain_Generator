@@ -1,0 +1,22 @@
+{
+	"features": [],
+    "uniforms": [
+		{"name": "heightMap", "type": "Sampler", "channel": 0},
+		{"name": "grid_size", "type": "Vec4", "value": [32.0, 32.0, 0.0, 0.0]},
+		{"name": "terrain_scale", "type": "Vec4", "value": [3.0, 0.01, 0.0, 0.0]},
+		{"name": "map_1_scale", "type": "Vec4", "value": [1.0, 1.0, 1.0, 0.0]},
+		{"name": "map_2_scale", "type": "Vec4", "value": [5.0, 0.1, 5.0, 0.0]},
+		{"name": "map_3_scale", "type": "Vec4", "value": [10.0, 0.01, 10.0, 0.0]},
+		{"name": "map_1_offset", "type": "Vec4", "value": [0.0, 0.0, 0.0, 0.0]},
+		{"name": "map_2_offset", "type": "Vec4", "value": [0.0, 0.0, 0.0, 0.0]},
+		{"name": "map_3_offset", "type": "Vec4", "value": [0.0, 0.0, 0.0, 0.0]},
+		{"name": "offset_terrain", "type": "Vec4", "value": [0.0, 0.0, 0.0, 0.0]},
+		{"name": "normal_params", "type": "Vec4", "value": [0.0, 0.0, 0.0, 0.0]},
+		{"name": "water_altitude", "type": "Vec4", "value": [0.1, 0.0, 0.0, 0.0]},
+		{"name": "mineral_fading", "type": "Vec4", "value": [0.0, 2.0, 0.0, 0.0]},
+		{"name": "color_grass", "type": "Color", "value": [0.0, 1.0, 0.0, 0.0]},
+		{"name": "color_water", "type": "Color", "value": [0.0, 0.0, 1.0, 0.0]},
+		{"name": "color_mineral1", "type": "Color", "value": [1.0, 0.0, 0.0, 0.0]},
+		{"name": "color_mineral2", "type": "Color", "value": [1.0, 1.0, 0.0, 0.0]}
+	]
+}
